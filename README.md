@@ -45,17 +45,16 @@ This tool summarizes large textual data using the TextRank algorithm, with a foc
    ```
 
 2. **Flask Web Interface**:
+   To use the web interface with Flask:
 
-To use the web interface with Flask:
+   1. Run the Flask app:
+      ```bash
+      python src/app.py
+      ```
+   2. Open your web browser and go to http://127.0.0.1:5000/.
 
-1. Run the Flask app:
-   ```bash
-   python src/app.py
-   ```
-2. Open your web browser and go to http://127.0.0.1:5000/.
-
-- Input: Enter the text in the provided text area and specify the number of sentences for the summary.
-- Output: The summarized text is displayed on the same page after submission.
+   - Input: Enter the text in the provided text area and specify the number of sentences for the summary.
+   - Output: The summarized text is displayed on the same page after submission.
 
 ## Contributing
 
