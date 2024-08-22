@@ -71,8 +71,8 @@ This project employs multiple algorithms and techniques to achieve text summariz
       ```
    2. Open your web browser and go to http://127.0.0.1:5000/.
 
-   - Input: Enter the text in the provided text area and specify the number of sentences for the summary.
-   - Output: The summarized text is displayed on the same page after submission.
+      - Input: Enter the text in the provided text area and specify the number of sentences for the summary.
+      - Output: The summarized text is displayed on the same page after submission.
 
 ## Contributing
 
