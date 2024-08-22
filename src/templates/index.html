@@ -12,11 +12,11 @@
         <form method="POST" action="/">
             <div class="mb-3">
                 <label for="text" class="form-label">Enter Text to Summarize:</label>
-                <textarea class="form-control" id="text" name="text" rows="10" required></textarea>
+                <textarea class="form-control" id="text" name="text" rows="10" required>{{ request.form.get('text') }}</textarea>
             </div>
             <div class="mb-3">
                 <label for="num_sentences" class="form-label">Number of Sentences in Summary:</label>
-                <input type="number" class="form-control" id="num_sentences" name="num_sentences" value="3" min="1">
+                <input type="number" class="form-control" id="num_sentences" name="num_sentences" value="{{ request.form.get('num_sentences', 3) }}" min="1">
             </div>
             <button type="submit" class="btn btn-primary">Summarize</button>
         </form>
